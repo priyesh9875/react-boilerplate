@@ -1,0 +1,29 @@
+# Blog settings
+permalink: /blog/:title
+
+name: react-boilerplate
+description: A slightly opinionated setup for ReactJS
+demo_url: http://ec2-52-91-0-209.compute-1.amazonaws.com:3060/
+google_verification: null
+twitter_username: mikechabot_
+github_username:  mikechabot
+email: mike.chabot@live.com
+baseurl: "/"
+url: "http://localhost:4000/"
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
