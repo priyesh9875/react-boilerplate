@@ -50,7 +50,7 @@ ul {
 
 
 .wrapper {
-    max-width: 625px;
+    max-width: 800px;
     margin: auto;
     padding: 60px 30px 60px 30px;
     @media screen and (max-width: $br) {
@@ -60,6 +60,7 @@ ul {
 
 .header-container {
     padding-bottom: 45px;
+    max-width: 650px;
     h5 {
         color: $color-lightgrey;
         font-weight: 300;
@@ -89,16 +90,37 @@ ul {
     }
 }
 
+.github-buttons {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    div {
+        margin: 5px;
+    }
+}
+
+.footer {
+    color: $color-lightgrey;
+    text-align: center;
+}
 
 .live-demo {
     padding-bottom: 30px;
     h1 {
-        font-size: 1.4em;
+        font-size: 1.6em;
         margin-bottom: 5px;
     }
 }
 
 .features {
+    display: flex;
+}
+
+.feature-column {
+    flex: 1;
+}
+
+.feature {
     padding-bottom: 30px;
     strong {
         font-weight: 500
@@ -109,7 +131,6 @@ ul {
         margin-bottom: 5px;
     }
 }
-
 
 .post {
     padding-bottom: 30px;

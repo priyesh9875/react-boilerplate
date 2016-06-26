@@ -7,20 +7,41 @@ layout: default
     <h1><a href="{{ site.demo_url }}">Live Demo</a></h1>
 </div>
 
-{% for feature in site.data.features %}
-    <div class="features">
-        <h2>{{ feature.title }}</h2>
-        <ul>
-            {% for item in feature.items %}
-                <li>{{ item.label }}
-                    <ul>
-                    {% for subitem in item.subitems %}
-                        <li>{{ subitem }}</li>
-                    {% endfor %}
-                    </ul>
-                </li>
-            {% endfor %}
-        </ul>
-
+<div class="features">
+{% for column in site.data.features %}
+    <div class="feature-column">
+        {% for feature in column.items %}
+        <div class="feature">
+            <h2>{{ feature.title }}</h2>
+                {% for item in feature.items %}
+                <ul>
+                    <li>{{ item.label }}
+                        <ul>
+                        {% for subitem in item.subitems %}
+                            <li>{{ subitem }}</li>
+                        {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
+                {% endfor %}
+            </div>
+        {% endfor %}
     </div>
 {% endfor %}
+</div>
+
+<div class="footer">
+    <a href="https://github.com/mikechabot/react-boilerplate">react-boilerplate</a> | Code licensed under <a href="https://github.com/mikechabot/react-boilerplate/blob/master/LICENSE">MIT</a>.
+    <br>
+    <div class="github-buttons">
+        <div>
+            <a class="github-button" href="https://github.com/mikechabot/react-boilerplate" data-icon="octicon-star" data-style="mega" data-count-href="/mikechabot/react-boilerplate/stargazers" data-count-api="/repos/mikechabot/react-boilerplate#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star mikechabot/react-boilerplate on GitHub">Star</a>
+        </div>
+        <div>
+            <a class="github-button" href="https://github.com/mikechabot/react-boilerplate/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/mikechabot/react-boilerplate/network" data-count-api="/repos/mikechabot/react-boilerplate#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork mikechabot/react-boilerplate on GitHub">Fork</a>
+        </div>
+        <div>
+            <a class="github-button" href="https://github.com/mikechabot/react-boilerplate" data-icon="octicon-eye" data-style="mega" data-count-href="/mikechabot/react-boilerplate/watchers" data-count-api="/repos/mikechabot/react-boilerplate#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch mikechabot/react-boilerplate on GitHub">Watch</a>
+        </div>
+    </div>
+</div>

@@ -1,39 +1,42 @@
-- title: Build Process
-  items:
-      - label: Built with <a href="https://webpack.github.io/">Webpack</a>
-      - label: Supports ES6 via <a href="https://babeljs.io/">Babel</a> transpiling
+- items:
+    - title: Build Process
+      items:
+          - label: Built with <a href="https://webpack.github.io/">Webpack</a>
+          - label: Supports ES6 via <a href="https://babeljs.io/">Babel</a> transpiling
 
-- title: State Management
-  items:
-      - label: <a href="http://redux.js.org/index.html">redux</a> for state management
-      - label: <a href="https://github.com/reactjs/react-redux">react-redux</a> for stateful component bindings
-      - label: <a href="https://github.com/theaqua/redux-logger">redux-logger</a> for capturing Redux actions
+    - title: Routing
+      items:
+          - label: <a href="https://github.com/reactjs/react-router">react-router</a> for client-side routing
 
-- title: Routing
-  items:
-      - label: <a href="https://github.com/reactjs/react-router">react-router</a> for client-side routing
+    - title: HTTP
+      items:
+          - label: Support via <a href="https://github.com/mzabriskie/axios">Axios</a>
+          - label: Implementing data services utilize <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>
 
-- title: HTTP
-  items:
-      - label: Support via <a href="https://github.com/mzabriskie/axios">Axios</a>
-      - label: Implementing data services utilize <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>
+    - title: Testing
+      items:
+          - label: Tested with <a href="https://mochajs.org/">Mocha</a>
+          - label: Coverage support via <a href="https://gotwarlost.github.io/istanbul/">Istanbul</a>
+          - label: <a href="https://facebook.github.io/react/docs/test-utils.html">react-addons-test-utils</a> for component testing
+          - label: <a href="https://github.com/arnaudbenard/redux-mock-store">redux-mock-store</a> for Redux state testing
+          - label: <a href="http://sinonjs.org/">Sinon.JS</a> for mocking, stubbing & spying
 
-- title: Styling
-  items:
-      - label: Supports <a href="http://sass-lang.com/">SCSS & SASS</a> syntax
-      - label: Browser compatibility via <a href="https://github.com/postcss/autoprefixer">autoprefixer</a>
-- title: Development
-  items:
-      - label: Utilizes <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a> for live refresh
-      - label: Out-of-the-box configurations for <a href="http://redux.js.org/index.html">redux</a> and <a href="https://webpack.github.io/">Webpack</a>
-        subitems:
-            - <strong>Production</strong> // <a href="http://expressjs.com/">Express</a> server with redux-logger disabled
-            - <strong>Development</strong> // WebpackDevServer with <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a>, and redux-logger enabled
+- items:
+    - title: State Management
+      items:
+          - label: <a href="http://redux.js.org/index.html">redux</a> for state management
+          - label: <a href="https://github.com/reactjs/react-redux">react-redux</a> for stateful component bindings
+          - label: <a href="https://github.com/theaqua/redux-logger">redux-logger</a> for capturing Redux actions
 
-- title: Testing
-  items:
-      - label: Tested with <a href="https://mochajs.org/">Mocha</a>
-      - label: Coverage support via <a href="https://gotwarlost.github.io/istanbul/">Istanbul</a>
-      - label: <a href="https://facebook.github.io/react/docs/test-utils.html">react-addons-test-utils</a> for component testing
-      - label: <a href="https://github.com/arnaudbenard/redux-mock-store">redux-mock-store</a> for Redux state testing
-      - label: <a href="http://sinonjs.org/">Sinon.JS</a> for mocking, stubbing & spying
+    - title: Development
+      items:
+          - label: Utilizes <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a> for live refresh
+          - label: Out-of-the-box configurations for <a href="http://redux.js.org/index.html">redux</a> and <a href="https://webpack.github.io/">Webpack</a>
+            subitems:
+                - <strong>Production</strong> // <a href="http://expressjs.com/">Express</a> server with redux-logger disabled
+                - <strong>Development</strong> // WebpackDevServer with <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a>, and redux-logger enabled
+
+    - title: Styling
+      items:
+          - label: Supports <a href="http://sass-lang.com/">SCSS & SASS</a> syntax
+          - label: Browser compatibility via <a href="https://github.com/postcss/autoprefixer">autoprefixer</a>

@@ -8,8 +8,8 @@ google_verification: null
 twitter_username: mikechabot_
 github_username:  mikechabot
 email: mike.chabot@live.com
-baseurl: "/react-boilerplate"
-url: "http://mikechabot.github.io/"
+baseurl: "/"
+url: "http://localhost:4000/"
 
 # File management
 include: [".htaccess"]
