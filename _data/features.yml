@@ -1,17 +1,17 @@
 - items:
     - title: Build Process
       items:
-          - label: Built with <a href="https://webpack.github.io/">Webpack</a>
+          - label: Built with <a href="https://webpack.github.io/">webpack</a>
           - label: Supports ES6 via <a href="https://babeljs.io/">Babel</a> transpiling
 
     - title: Routing
       items:
-          - label: <a href="https://github.com/reactjs/react-router">react-router</a> for client-side routing
+          - label: <a href="https://github.com/reactjs/react-router">react-router</a> for client-side <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/routes.js">routing</a>
 
     - title: HTTP
       items:
-          - label: Support via <a href="https://github.com/mzabriskie/axios">Axios</a>
-          - label: Implementing data services utilize <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>
+          - label: Promise based HTTP support via <a href="https://github.com/mzabriskie/axios">Axios</a>
+          - label: Implementing <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/data-access-service.js#L29">data services</a> utilize <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>
 
     - title: Testing
       items:
@@ -26,15 +26,17 @@
       items:
           - label: <a href="http://redux.js.org/index.html">redux</a> for state management
           - label: <a href="https://github.com/reactjs/react-redux">react-redux</a> for stateful component bindings
-          - label: <a href="https://github.com/theaqua/redux-logger">redux-logger</a> for capturing Redux actions
+          - label: <a href="https://github.com/gaearon/redux-thunk">redux-thunk</a> for <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/actions/thunk-action-creators.js#L21">asynchronous actions</a>
+          - label: <a href="https://github.com/theaqua/redux-logger">redux-logger</a> for capturing actions
 
-    - title: Development
+    - title: Develop & Deploy
       items:
-          - label: Utilizes <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a> for live refresh
-          - label: Out-of-the-box configurations for <a href="http://redux.js.org/index.html">redux</a> and <a href="https://webpack.github.io/">Webpack</a>
+          - label: "Environmental configurations for both webpack and redux:"
             subitems:
-                - <strong>Production</strong> // <a href="http://expressjs.com/">Express</a> server with redux-logger disabled
-                - <strong>Development</strong> // WebpackDevServer with <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a>, and redux-logger enabled
+                - <strong>Dev</strong> // <a href="https://webpack.github.io/docs/webpack-dev-server.html">webpack-dev-server</a> with <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a> for live refresh. Redux-logger <strong>enabled.</strong>
+                - <strong>Prod</strong> // <a href="http://expressjs.com/">Express</a> server with redux-logger <strong>disabled</strong>
+          - See <a href="https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js#L69">here</a> and <a href="">here</a>
+
 
     - title: Styling
       items:

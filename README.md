@@ -6,19 +6,21 @@ A slightly opinionated setup for ReactJS projects
 ## Features
 
 #### Build Process
- * Built with [Webpack](https://webpack.github.io/)
+ * Built with [webpack](https://webpack.github.io/)
  * Supports ES6 via [Babel](https://babeljs.io/) transpiling
 
 #### State Management
 * [redux](http://redux.js.org/index.html) for state management
 * [react-redux](https://github.com/reactjs/react-redux) for stateful component bindings
-* [redux-logger](https://github.com/theaqua/redux-logger) for capturing Redux actions
+* [redux-thunk](https://github.com/gaearon/redux-thunk) for [asynchronous actions](https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/actions/thunk-action-creators.js#L21)
+* [redux-logger](https://github.com/theaqua/redux-logger) for capturing actions
 
 #### Routing
-* [react-router](https://github.com/reactjs/react-router) for client-side routing
+* [react-router](https://github.com/reactjs/react-router) for client-side [routing](https://github.com/mikechabot/react-boilerplate/blob/master/src/routes.js)
 
 #### HTTP
 * Promise based HTTP support via [Axios](https://github.com/mzabriskie/axios)
+* Implementing [data services](https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/data-access-service.js#L29) utilize [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 #### Styling
 * Supports [SCSS & SASS](http://sass-lang.com/) syntax

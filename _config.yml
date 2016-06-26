@@ -3,7 +3,7 @@ permalink: /blog/:title
 
 name: react-boilerplate
 description: A slightly opinionated setup for ReactJS
-demo_url: http://www.marketmovers.io/
+demo_url: dist
 google_verification: null
 twitter_username: mikechabot_
 github_username:  mikechabot

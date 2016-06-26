@@ -5,7 +5,7 @@
   url: https://github.com/mikechabot/react-boilerplate
 
 - title: live demo
-  url: http://ec2-52-91-0-209.compute-1.amazonaws.com:3060
+  url: dist
 
 - title: twitter
   url: https://twitter.com/mikechabot_
