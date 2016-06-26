@@ -9,7 +9,7 @@ twitter_username: mikechabot_
 github_username:  mikechabot
 email: mike.chabot@live.com
 baseurl: "/react-boilerplate" # the subpath of your site, e.g. /blog
-url: "http://mikechabot.github.io/" # the base hostname & protocol for your site
+url: "https://github.com/mikechabot/" # the base hostname & protocol for your site
 
 # File management
 include: [".htaccess"]
