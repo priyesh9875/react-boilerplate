@@ -2,22 +2,25 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+{% include header.html %}
+<div class="live-demo">
+    <h1><a href="{{ site.demo_url }}">Live Demo</a></h1>
 </div>
+
+{% for feature in site.data.features %}
+    <div class="features">
+        <h2>{{ feature.title }}</h2>
+        <ul>
+            {% for item in feature.items %}
+                <li>{{ item.label }}
+                    <ul>
+                    {% for subitem in item.subitems %}
+                        <li>{{ subitem }}</li>
+                    {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+{% endfor %}

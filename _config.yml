@@ -1,21 +1,29 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Blog settings
+permalink: /blog/:title
 
-# Site settings
-title: react-boilerplate
-email: mike.chabot@live.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/react-boilerplate" # the subpath of your site, e.g. /blog
-url: "http://mikechabot.github.io/" # the base hostname & protocol for your site
+name: react-boilerplate
+description: A slightly opinionated setup for ReactJS
+demo_url: http://ec2-52-91-0-209.compute-1.amazonaws.com:3060/
+google_verification: null
 twitter_username: mikechabot_
 github_username:  mikechabot
+email: mike.chabot@live.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000/" # the base hostname & protocol for your site
 
-# Build settings
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+
+# Markdown
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
