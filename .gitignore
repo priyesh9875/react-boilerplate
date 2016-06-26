@@ -24,3 +24,4 @@ dist
 # Coverage reports
 /coverage
 
+/_config.yml
