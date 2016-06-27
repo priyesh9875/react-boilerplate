@@ -27004,10 +27004,10 @@
 
 	exports.default = _react2.default.createElement(
 	    _reactRouter.Route,
-	    { path: '/', component: _app2.default },
+	    { path: '/react-boilerplate/dist', component: _app2.default },
 	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _increment2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: 'decrement', component: _decrement2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: 'reset', component: _reset2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/react-boilerplate/dist/decrement', component: _decrement2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/react-boilerplate/dist/reset', component: _reset2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '*', component: _notFound2.default })
 	);
 
@@ -58186,9 +58186,9 @@
 	        _react2.default.createElement(_tabMenu2.default, {
 	            activePath: activePath,
 	            items: {
-	                increment: '/',
-	                decrement: '/decrement',
-	                reset: '/reset'
+	                increment: 'react-boilerplate/dist/',
+	                decrement: 'react-boilerplate/dist/decrement',
+	                reset: 'react-boilerplate/dist/reset'
 	            }
 	        }),
 	        _react2.default.createElement(
