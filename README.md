@@ -10,7 +10,7 @@ A slightly opinionated setup for ReactJS projects
  * Supports ES6 via [Babel](https://babeljs.io/) transpiling
 
 #### State Management
-* [redux](http://redux.js.org/index.html) for state management
+* [redux](http://redux.js.org/index.html) for state tree management
 * [react-redux](https://github.com/reactjs/react-redux) for stateful component bindings
 * [redux-thunk](https://github.com/gaearon/redux-thunk) for [asynchronous actions](https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/actions/thunk-action-creators.js#L21)
 * [redux-logger](https://github.com/theaqua/redux-logger) for capturing actions
@@ -19,7 +19,7 @@ A slightly opinionated setup for ReactJS projects
 * [react-router](https://github.com/reactjs/react-router) for client-side [routing](https://github.com/mikechabot/react-boilerplate/blob/master/src/routes.js)
 
 #### HTTP
-* [Customizable](<a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/ajax-service.js#L11">Customizable</a>), promise-based HTTP support via [Axios](https://github.com/mzabriskie/axios)
+* [Customizable](https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/ajax-service.js#L11), promise-based HTTP support via [Axios](https://github.com/mzabriskie/axios)
 * Implementing [data services](https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/data-access-service.js#L29) utilize [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 #### Styling
@@ -27,9 +27,9 @@ A slightly opinionated setup for ReactJS projects
 * Browser compatibility via [autoprefixing](https://github.com/postcss/autoprefixer)
 
 #### Develop & Deploy
-* Contains out-of-the-box Redux and Webpack configurations for both production and development.
-* * **Development** // [webpack-dev-server](https://webpack.github.io/docs/webpack-dev-server.html) with [React Hot Loader](http://gaearon.github.io/react-hot-loader/) for live refresh. `redux-logger` enabled.
-* * **Production** // [Express](http://expressjs.com/) server with `redux-logger` disabled.
+* Environmental configurations for both webpack and redux
+  * **Dev** // [webpack-dev-server](https://webpack.github.io/docs/webpack-dev-server.html) with [React Hot Loader](http://gaearon.github.io/react-hot-loader/) for live refresh. `redux-logger` enabled.
+  * **Prod** // [Express](http://expressjs.com/) server with `redux-logger` disabled.
 * See [here](https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js#L69) and [here](https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/store/configure-store.js#L9)
 
 #### Testing
