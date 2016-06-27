@@ -27006,8 +27006,8 @@
 	    _reactRouter.Route,
 	    { path: '/react-boilerplate/dist', component: _app2.default },
 	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _increment2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: 'react-boilerplate/dist/decrement', component: _decrement2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: 'react-boilerplate/dist/reset', component: _reset2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: 'decrement', component: _decrement2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: 'reset', component: _reset2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '*', component: _notFound2.default })
 	);
 
@@ -58187,9 +58187,9 @@
 	        _react2.default.createElement(_tabMenu2.default, {
 	            activePath: activePath,
 	            items: {
-	                increment: '/react-boilerplate/dist/',
-	                decrement: '/react-boilerplate/dist/decrement',
-	                reset: '/react-boilerplate/dist/reset'
+	                increment: '/react-boilerplate/dist',
+	                decrement: 'decrement',
+	                reset: 'reset'
 	            }
 	        }),
 	        _react2.default.createElement(
@@ -62311,7 +62311,8 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	function NotFound() {
+	function NotFound(props) {
+	    console.log(props);
 	    return _react2.default.createElement(
 	        'section',
 	        null,
