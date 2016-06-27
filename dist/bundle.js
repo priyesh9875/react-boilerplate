@@ -58186,7 +58186,7 @@
 	        _react2.default.createElement(_tabMenu2.default, {
 	            activePath: activePath,
 	            items: {
-	                increment: '',
+	                increment: '/',
 	                decrement: '/decrement',
 	                reset: '/reset'
 	            }
