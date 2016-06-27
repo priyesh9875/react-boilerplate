@@ -58188,8 +58188,8 @@
 	            activePath: activePath,
 	            items: {
 	                increment: '/react-boilerplate/dist',
-	                decrement: 'decrement',
-	                reset: 'reset'
+	                decrement: '/decrement',
+	                reset: '/reset'
 	            }
 	        }),
 	        _react2.default.createElement(
