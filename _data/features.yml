@@ -35,7 +35,7 @@
             subitems:
                 - <strong>Dev</strong> // <a href="https://webpack.github.io/docs/webpack-dev-server.html">webpack-dev-server</a> with <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a> for live refresh. Redux-logger <strong>enabled.</strong>
                 - <strong>Prod</strong> // <a href="http://expressjs.com/">Express</a> server with redux-logger <strong>disabled</strong>
-          - label: See <a href="https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js#L69">here</a> and <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/store/configure-store.js">here</a>
+          - label: See <a href="https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js#L69">here</a> and <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/store/configure-store.js#L9">here</a>
 
 
     - title: Styling
