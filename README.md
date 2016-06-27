@@ -27,9 +27,9 @@ A slightly opinionated setup for ReactJS projects
 * Browser compatibility via [autoprefixing](https://github.com/postcss/autoprefixer)
 
 #### Develop & Deploy
-* Contains out-of-the-box Redux and Webpack configurations for both production and development.
-* * **Development** // [webpack-dev-server](https://webpack.github.io/docs/webpack-dev-server.html) with [React Hot Loader](http://gaearon.github.io/react-hot-loader/) for live refresh. `redux-logger` enabled.
-* * **Production** // [Express](http://expressjs.com/) server with `redux-logger` disabled.
+* Environmental configurations for both webpack and redux
+  * **Dev** // [webpack-dev-server](https://webpack.github.io/docs/webpack-dev-server.html) with [React Hot Loader](http://gaearon.github.io/react-hot-loader/) for live refresh. `redux-logger` enabled.
+  * **Prod** // [Express](http://expressjs.com/) server with `redux-logger` disabled.
 * See [here](https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js#L69) and [here](https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/store/configure-store.js#L9)
 
 #### Testing
