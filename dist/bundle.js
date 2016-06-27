@@ -58187,9 +58187,9 @@
 	        _react2.default.createElement(_tabMenu2.default, {
 	            activePath: activePath,
 	            items: {
-	                increment: '/',
-	                decrement: '/decrement',
-	                reset: '/reset'
+	                increment: '/react-boilerplate/dist/',
+	                decrement: '/react-boilerplate/dist/decrement',
+	                reset: '/react-boilerplate/dist/reset'
 	            }
 	        }),
 	        _react2.default.createElement(
