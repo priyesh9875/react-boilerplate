@@ -10,7 +10,7 @@ A slightly opinionated setup for ReactJS projects
  * Supports ES6 via [Babel](https://babeljs.io/) transpiling
 
 #### State Management
-* [redux](http://redux.js.org/index.html) for state management
+* [redux](http://redux.js.org/index.html) for state tree management
 * [react-redux](https://github.com/reactjs/react-redux) for stateful component bindings
 * [redux-thunk](https://github.com/gaearon/redux-thunk) for [asynchronous actions](https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/actions/thunk-action-creators.js#L21)
 * [redux-logger](https://github.com/theaqua/redux-logger) for capturing actions

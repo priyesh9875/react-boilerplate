@@ -1,19 +1,21 @@
 - items:
-    - title: Build Process
+    - title: <i class="fa fa-globe" aria-hidden="true"></i> <a href="dist">Live Demo</a>
       items:
-          - label: Built with <a href="https://webpack.github.io/">webpack</a>
-          - label: Supports ES6 via <a href="https://babeljs.io/">Babel</a> transpiling
+          - label: Fetch fake data!
+          - label: Navigate to pointless routes!
 
-    - title: Routing
+    - title: <i class="fa fa-tree" aria-hidden="true"></i> State Management
+      items:
+          - label: <a href="http://redux.js.org/index.html">redux</a> for state tree management
+          - label: <a href="https://github.com/reactjs/react-redux">react-redux</a> for stateful component bindings
+          - label: <a href="https://github.com/gaearon/redux-thunk">redux-thunk</a> for <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/actions/thunk-action-creators.js#L21">asynchronous actions</a>
+          - label: <a href="https://github.com/theaqua/redux-logger">redux-logger</a> for capturing actions
+
+    - title: <i class="fa fa-link" aria-hidden="true"></i> Routing
       items:
           - label: <a href="https://github.com/reactjs/react-router">react-router</a> for client-side <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/routes.js">routing</a>
 
-    - title: HTTP
-      items:
-          - label: <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/ajax-service.js#L11">Customizable</a>, promise-based HTTP support via <a href="https://github.com/mzabriskie/axios">Axios</a>
-          - label: Implementing <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/data-access-service.js#L29">data services</a> utilize <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>
-
-    - title: Testing
+    - title: <i class="fa fa-diamond" aria-hidden="true"></i> Testing
       items:
           - label: Tested with <a href="https://mochajs.org/">Mocha</a>
           - label: Coverage support via <a href="https://gotwarlost.github.io/istanbul/">Istanbul</a>
@@ -22,23 +24,25 @@
           - label: <a href="http://sinonjs.org/">Sinon.JS</a> for mocking, stubbing & spying
 
 - items:
-    - title: State Management
+    - title: <i class="fa fa-wrench" aria-hidden="true"></i> Build Process
       items:
-          - label: <a href="http://redux.js.org/index.html">redux</a> for state management
-          - label: <a href="https://github.com/reactjs/react-redux">react-redux</a> for stateful component bindings
-          - label: <a href="https://github.com/gaearon/redux-thunk">redux-thunk</a> for <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/actions/thunk-action-creators.js#L21">asynchronous actions</a>
-          - label: <a href="https://github.com/theaqua/redux-logger">redux-logger</a> for capturing actions
+          - label: Built with <a href="https://webpack.github.io/">webpack</a>
+          - label: Supports ES6 via <a href="https://babeljs.io/">Babel</a> transpiling
 
-    - title: Develop & Deploy
+    - title: <i class="fa fa-code" aria-hidden="true"></i> HTTP
+      items:
+          - label: <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/ajax-service.js#L11">Customizable</a>, promise-based HTTP support via <a href="https://github.com/mzabriskie/axios">Axios</a>
+          - label: Implementing <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/data-access-service.js#L29">data services</a> utilize <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>
+
+    - title: <i class="fa fa-text-height" aria-hidden="true"></i> Styling
+      items:
+          - label: Supports <a href="http://sass-lang.com/">SCSS & SASS</a> syntax
+          - label: Browser compatibility via <a href="https://github.com/postcss/autoprefixer">autoprefixer</a>
+
+    - title: <i class="fa fa-desktop" aria-hidden="true"></i> Develop & Deploy
       items:
           - label: "Environmental configurations for both webpack and redux:"
             subitems:
                 - <strong>Dev</strong> // <a href="https://webpack.github.io/docs/webpack-dev-server.html">webpack-dev-server</a> with <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a> for live refresh. Redux-logger <strong>enabled.</strong>
                 - <strong>Prod</strong> // <a href="http://expressjs.com/">Express</a> server with redux-logger <strong>disabled</strong>
           - label: See <a href="https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js#L69">here</a> and <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/store/configure-store.js#L9">here</a>
-
-
-    - title: Styling
-      items:
-          - label: Supports <a href="http://sass-lang.com/">SCSS & SASS</a> syntax
-          - label: Browser compatibility via <a href="https://github.com/postcss/autoprefixer">autoprefixer</a>
