@@ -27104,7 +27104,8 @@
 	                    _react2.default.createElement(_codeBlock2.default, { code: state })
 	                )
 	            )
-	        )
+	        ),
+	        _react2.default.createElement(_footer2.default, null)
 	    );
 	}
 
