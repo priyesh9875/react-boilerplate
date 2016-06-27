@@ -19,18 +19,18 @@ A slightly opinionated setup for ReactJS projects
 * [react-router](https://github.com/reactjs/react-router) for client-side [routing](https://github.com/mikechabot/react-boilerplate/blob/master/src/routes.js)
 
 #### HTTP
-* Promise based HTTP support via [Axios](https://github.com/mzabriskie/axios)
+* [Customizable](<a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/ajax-service.js#L11">Customizable</a>), promise-based HTTP support via [Axios](https://github.com/mzabriskie/axios)
 * Implementing [data services](https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/data-access-service.js#L29) utilize [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 #### Styling
 * Supports [SCSS & SASS](http://sass-lang.com/) syntax
 * Browser compatibility via [autoprefixing](https://github.com/postcss/autoprefixer)
 
-#### Development
-* Utilizes [React Hot Loader](http://gaearon.github.io/react-hot-loader/) for live refresh
-* * Contains out-of-the-box Redux and Webpack configurations for both production and development.
-  * **Production** // [Express](http://expressjs.com/) server with `redux-logger` disabled.
-  * **Development** // WebpackDevServer with [React Hot Loader](http://gaearon.github.io/react-hot-loader/), and `redux-logger` enabled.
+#### Develop & Deploy
+* Contains out-of-the-box Redux and Webpack configurations for both production and development.
+* * **Development** // [webpack-dev-server](https://webpack.github.io/docs/webpack-dev-server.html) with [React Hot Loader](http://gaearon.github.io/react-hot-loader/) for live refresh. `redux-logger` enabled.
+* * **Production** // [Express](http://expressjs.com/) server with `redux-logger` disabled.
+* See [here](https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js#L69) and [here](https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/store/configure-store.js)
 
 #### Testing
 * Tested with [Mocha](https://mochajs.org/)

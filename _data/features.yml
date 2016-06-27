@@ -10,7 +10,7 @@
 
     - title: HTTP
       items:
-          - label: Promise based HTTP support via <a href="https://github.com/mzabriskie/axios">Axios</a>
+          - label: <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/ajax-service.js#L11">Customizable</a>, promise-based HTTP support via <a href="https://github.com/mzabriskie/axios">Axios</a>
           - label: Implementing <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/data-access-service.js#L29">data services</a> utilize <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>
 
     - title: Testing
@@ -35,7 +35,7 @@
             subitems:
                 - <strong>Dev</strong> // <a href="https://webpack.github.io/docs/webpack-dev-server.html">webpack-dev-server</a> with <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a> for live refresh. Redux-logger <strong>enabled.</strong>
                 - <strong>Prod</strong> // <a href="http://expressjs.com/">Express</a> server with redux-logger <strong>disabled</strong>
-          - See <a href="https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js#L69">here</a> and <a href="">here</a>
+          - See <a href="https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js#L69">here</a> and <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/store/configure-store.js">here</a>
 
 
     - title: Styling
