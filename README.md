@@ -1,5 +1,5 @@
 # react-boilerplate
-A slightly opinionated setup for ReactJS projects
+A slightly opinionated yet dead simple boilerplate for ReactJS
 
 #### http://mikechabot.github.io/react-boilerplate/
 
