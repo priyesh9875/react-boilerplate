@@ -27809,7 +27809,7 @@
 	                { href: 'https://github.com/mikechabot/react-boilerplate' },
 	                'redux-entity'
 	            ),
-	            '\xA0 for domain entity management.'
+	            '\xA0for domain entity management.'
 	        ),
 	        _react2.default.createElement('hr', null),
 	        _react2.default.createElement(_Entity2.default, {
