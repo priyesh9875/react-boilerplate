@@ -3,7 +3,7 @@ body, html {
   height: 100%;
   margin: 0px;
   font: "Raleway", "Arial", sans-serif;
-  color: #757575; }
+  color: #455A64; }
 
 #example-app {
   display: -ms-flexbox;
@@ -25,9 +25,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #424242;
-  background-color: #9CCC65;
-  border-color: #8BC34A; }
+  color: #FFFFFF;
+  background-color: #546E7A;
+  border-color: #455A64; }
 
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -40,14 +40,14 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFFFFF;
-  background-color: #689F38;
-  border-color: #558B2F; }
+  background-color: #37474F;
+  border-color: #263238; }
 
 .button-primary {
   margin: 5px 5px 0 0; }
 
 code {
-  color: #558B2F; }
+  color: #546E7A; }
 
 hr {
   margin-top: 1rem;
@@ -56,12 +56,12 @@ hr {
 pre {
   font-size: 90%;
   margin: 0;
-  background-color: #F1F1F1;
+  background-color: #CFD8DC;
   counter-reset: line-numbering;
   font-family: Consolas, Menlo, Monaco, monospace;
   padding: 5px;
   border-radius: 3px 10px 3px 10px;
-  color: #558B2F;
+  color: #455A64;
   white-space: pre-wrap;
   word-wrap: break-word; }
 
@@ -77,8 +77,8 @@ pre .line::before {
   color: #616161; }
 
 .loader {
-  border: 4px solid #DCEDC8;
-  border-top: 4px solid #9CCC65;
+  border: 4px solid #CFD8DC;
+  border-top: 4px solid #78909C;
   border-radius: 50%;
   width: 40px;
   height: 40px;

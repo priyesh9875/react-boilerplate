@@ -6,8 +6,7 @@
 
     - title: <i class="fa fa-tree" aria-hidden="true"></i> State Management
       items:
-          - label: <a href="http://redux.js.org/index.html">redux</a> for state tree management
-          - label: <a href="https://github.com/reactjs/react-redux">react-redux</a> for stateful component bindings
+          - label: <a href="https://github.com/mikechabot/redux-entity">redux-entity</a> for domain entity management.
           - label: <a href="https://github.com/gaearon/redux-thunk">redux-thunk</a> for <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/actions/thunk-action-creators.js#L21">asynchronous actions</a>
           - label: <a href="https://github.com/theaqua/redux-logger">redux-logger</a> for capturing actions
 
@@ -31,8 +30,8 @@
 
     - title: <i class="fa fa-code" aria-hidden="true"></i> HTTP
       items:
-          - label: <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/ajax-service.js#L11">Customizable</a>, promise-based HTTP support via <a href="https://github.com/mzabriskie/axios">Axios</a>
-          - label: Implementing <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/data-access-service.js#L29">data services</a> utilize <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>
+          - label: Easily create <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/domain/example-domain-service.js">domain services</a> that implement a generic <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/data-access-service.js#L42">data service</a>.
+          - label: <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/services/data/ajax-service.js#L11">Customize</a> the <a href="https://github.com/mzabriskie/axios">Axios</a> instances that drives the generic data service.
 
     - title: <i class="fa fa-text-height" aria-hidden="true"></i> Styling
       items:
@@ -43,6 +42,5 @@
       items:
           - label: "Environmental configurations for both webpack and redux:"
             subitems:
-                - <strong>Dev</strong> // <a href="https://webpack.github.io/docs/webpack-dev-server.html">webpack-dev-server</a> with <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a> for live refresh. Redux-logger <strong>enabled.</strong>
-                - <strong>Prod</strong> // <a href="http://expressjs.com/">Express</a> server with redux-logger <strong>disabled</strong>
-          - label: See <a href="https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js#L69">here</a> and <a href="https://github.com/mikechabot/react-boilerplate/blob/master/src/redux/store/configure-store.js#L9">here</a>
+                - <strong>DEV:</strong> <a href="https://webpack.github.io/docs/webpack-dev-server.html">webpack-dev-server</a> with <a href="http://gaearon.github.io/react-hot-loader/">React Hot Loader</a>. redux-logger <strong>enabled.</strong>
+                - <strong>PROD:</strong> <a href="http://expressjs.com/">Express</a> server with redux-logger <strong>disabled</strong>
