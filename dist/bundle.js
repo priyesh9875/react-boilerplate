@@ -27806,7 +27806,7 @@
 	            'Utilizes\xA0',
 	            _react2.default.createElement(
 	                'a',
-	                { href: 'https://github.com/mikechabot/react-boilerplate' },
+	                { href: 'https://github.com/mikechabot/redux-entity' },
 	                'redux-entity'
 	            ),
 	            '\xA0for domain entity management.'
